@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+
+
+body{
+height: 100%;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+min-height: 100vh;
+background-image:linear-gradient(to top  ,#F2D5CE ,#F2C2C2 ) ;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+   
+}
+
+header{
+  background-color: #ecb3a5;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.082);
+  width: 70%;  
+}
+h1{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    text-align: center;
+    padding:10px ;
+    margin:20px ;
+
+}
+nav{
+    text-align: center;
+    width:auto;
+    height: auto;
+    margin: 30px;
+}
+
+
+#introd a  {
+    margin: 5px;
+    font-size: 18px;
+    padding: 2px;
+    display: inline;
+    
+}
+
+
+#final a{
+    margin:20px
+}
+
+nav>a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+
+}
+
+#introd a:hover{
+    color: aliceblue;
+    
+}
+
+.img1{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 200px;
+  }
+
+
+  h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: 10px;
+    border-radius: 10px 10px 10px ;                      
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+    width:70%;  
+  }
+
+  #p2{
+    margin: 50px 10px 50px 15px;
+    text-align: left;
+  }
+
+  footer{
+    text-align: center;
+    background-color:#ecb3a5;
+    width: 100%;
+}
+
+  #cabecalho{
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  #final{
+    margin: auto;
+  }
+
+ .h1ref>a{
+  text-decoration: none;
+  color: black;
+ }
